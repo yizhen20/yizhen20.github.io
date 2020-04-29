@@ -1,672 +1,630 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="zh-CN">
+
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 4.2.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+    <!--Setting-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="apple-mobile-web-app-capable" content="古琴记录">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <meta name="browsermode" content="application">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="theme-version" content="1.2.3">
+    <meta name="root" content="/">
+    <link rel="dns-prefetch" href="https://yizhen20.github.io">
+    <!--SEO-->
 
-<link rel="stylesheet" href="/css/main.css">
-
-
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"yizhen20.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
-  </script>
-
-  <meta property="og:type" content="website">
-<meta property="og:title" content="古琴记录">
-<meta property="og:url" content="https://yizhen20.github.io/page/2/index.html">
-<meta property="og:site_name" content="古琴记录">
-<meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="宋雨轩">
-<meta name="twitter:card" content="summary">
-
-<link rel="canonical" href="https://yizhen20.github.io/page/2/">
+<meta name="keywords" content="" />
 
 
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : true,
-    isPost : false,
-    lang   : 'zh-CN'
-  };
-</script>
-
-  <title>古琴记录</title>
-  
+<meta name="description" content="" />
 
 
+<meta name="robots" content="all" />
+<meta name="google" content="all" />
+<meta name="googlebot" content="all" />
+<meta name="verify" content="all" />
+    <!--Title-->
+
+<title>
+    
+    古琴记录
+</title>
+
+<link rel="alternate" href="/atom.xml" title="古琴记录" type="application/atom+xml">
 
 
+<link rel="icon" href="/favicon.ico">
+
+    
 
 
-  <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
+<link rel="stylesheet" href="/css/bootstrap.min.css?rev=3.3.7.css">
+<link rel="stylesheet" href="/css/font-awesome.min.css?rev=4.7.0.css">
+<link rel="stylesheet" href="/css/style.css?rev=@@hash.css">
 
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
-
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
-
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
-
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="切换导航栏">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
-    </div>
-  </div>
-
-  <div class="site-meta">
-
-    <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">古琴记录</h1>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-      <p class="site-subtitle" itemprop="description">鳶飛魚躍，無處不是化境。</p>
-  </div>
-
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
-        <i class="fa fa-search fa-fw fa-lg"></i>
-    </div>
-  </div>
+    
+<div class="hide">
+    <script type="text/javascript">
+    var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cspan class='cnzz_stat_icon_1263868967 hide' %3E%3Cscript%20src%3D%22https%3A%2F%2Fs95.cnzz.com%2Fz_stat.php%3Fweb_id%3D1272564536%22%3E%3C%2Fscript%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1263868967%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+    </script>
 </div>
 
 
 
 
-<nav class="site-nav">
-  <ul id="menu" class="menu">
-        <li class="menu-item menu-item-home">
+    
 
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
-
-  </li>
-        <li class="menu-item menu-item-about">
-
-    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
-
-  </li>
-        <li class="menu-item menu-item-tags">
-
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
-
-  </li>
-        <li class="menu-item menu-item-categories">
-
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
-
-  </li>
-      <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+<meta name="generator" content="Hexo 4.2.0"></head>
+<!--[if lte IE 8]>
+<style>
+    html{ font-size: 1em }
+</style>
+<![endif]-->
+<!--[if lte IE 9]>
+<div style="ie">你使用的浏览器版本过低，为了你更好的阅读体验，请更新浏览器的版本或者使用其他现代浏览器，比如Chrome、Firefox、Safari等。</div>
+<![endif]-->
+<body>
+    <header class="main-header"  style="background-image:url(
+    http://snippet.shenliyang.com/img/banner.jpg)"
+     >
+    <div class="main-header-box">
+        <a class="header-avatar" href="/" title='宋雨轩'>
+            <img src="/img/avatar.jpg" alt="logo头像" class="img-responsive center-block">
         </a>
-      </li>
-  </ul>
+        <div class="branding">
+            <!--<h2 class="text-hide">Snippet主题,从未如此简单有趣</h2>-->
+            
+            <img src="/img/branding.png" alt="Snippet 博客主题" class="img-responsive center-block">
+            
+        </div>
+    </div>
+</header>
+    <nav class="main-navigation">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="navbar-header"><span class="nav-toggle-button collapsed pull-right" data-toggle="collapse" data-target="#main-menu" id="mnav">
+                        <span class="sr-only"></span>
+                        <i class="fa fa-bars"></i>
+                    </span>
+                    <a class="navbar-brand" href="https://yizhen20.github.io">
+                        古琴记录</a>
+                </div>
+                <div class="collapse navbar-collapse" id="main-menu">
+                    <ul class="menu">
+                        
+                        <li role="presentation" class="text-center">
+                            <a href="/"><i class="fa "></i>
+                                首页</a>
+                        </li>
+                        
+                        <li role="presentation" class="text-center">
+                            <a href="/categories/古琴指法/"><i class="fa "></i>
+                                古琴指法</a>
+                        </li>
+                        
+                        <li role="presentation" class="text-center">
+                            <a href="/categories/古琴曲谱/"><i class="fa "></i>
+                                古琴曲谱</a>
+                        </li>
+                        
+                        <li role="presentation" class="text-center">
+                            <a href="/categories/古琴视频/"><i class="fa "></i>
+                                古琴视频</a>
+                        </li>
+                        
+                        <li role="presentation" class="text-center">
+                            <a href="/archives/"><i class="fa "></i>
+                                时间轴</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+    <section class="content-wrap">
+        <div class="container">
+            <div class="row">
+                <main class="col-md-8 main-content ">
+                    
+<div class="carousel">
+    <a href="https://promotion.aliyun.com/ntms/act/qwbk.html?userCode=xs0pypd2" target="_blank">
+        <img src="/./img/head-img.jpg" alt="">
+    </a>
+</div>
+
+
+
+
+<article class="post">
+    
+    <div class="post-media">
+        <a href="/2020/04/04/%E5%8D%A7%E9%BE%99%E5%90%9F/">
+            <img class="img-ajax" src="/img/loading.gif" data-src="http://www.bj-myt.com/ueditor/php/upload/image/20190923/1569230314645521.jpg" alt="卧龙吟">
+        </a>
+    </div>
+    
+    <div class="post-content">
+        <div class="post-head home-post-head">
+            <h1 class="post-title">
+                <a href="/2020/04/04/%E5%8D%A7%E9%BE%99%E5%90%9F/">
+                    卧龙吟</a>
+            </h1>
+            <div class="post-meta"> &bull;
+                <time class="post-date" datetime="" title="">
+                    2020年04月04日
+                </time>
+            </div>
+        </div>
+        <p class="brief">
+            
+            卧龙吟　　《卧龙吟》又名《有为歌》，由王健作词，谷建芬作曲，李一丁配乐完成。是电视连续剧《三国演义》的一首经典插曲。这首歌出现在电视剧《三国演义》第二十七集诸葛亮出山的一段，十分感人。
+　　《卧龙吟》，三国演义的经典歌曲之一，诸葛亮之...
+            
+        </p>
+    </div>
+    
+    <footer class="post-footer clearfix">
+        <div class="pull-left tag-list">
+            <div class="post-meta">
+    
+    <span class="categories-meta fa-wrap">
+        <i class="fa fa-folder-open-o"></i>
+        
+    </span>
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-tags"></i>
+        <span class="tags-meta">
+            
+            <a class="tag-link" href="/tags/%E5%8F%A4%E7%90%B4%E5%87%8F%E5%AD%97%E8%B0%B1/" rel="tag">古琴减字谱</a>
+            
+        </span>
+    </span>
+    
+    
+</div>
+        </div>
+        <div class="post-permalink">
+            <a href="/2020/04/04/%E5%8D%A7%E9%BE%99%E5%90%9F/" class="btn btn-default">
+                阅读全文</a>
+        </div>
+    </footer>
+    
+</article>
+
+
+<article class="post">
+    
+    <div class="post-media">
+        <a href="/2020/04/04/%E9%A3%8E%E4%BA%91%E9%99%85%E4%BC%9A/">
+            <img class="img-ajax" src="/img/loading.gif" data-src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540972474906311.jpg" alt="风云际会">
+        </a>
+    </div>
+    
+    <div class="post-content">
+        <div class="post-head home-post-head">
+            <h1 class="post-title">
+                <a href="/2020/04/04/%E9%A3%8E%E4%BA%91%E9%99%85%E4%BC%9A/">
+                    风云际会</a>
+            </h1>
+            <div class="post-meta"> &bull;
+                <time class="post-date" datetime="" title="">
+                    2020年04月04日
+                </time>
+            </div>
+        </div>
+        <p class="brief">
+            
+            风云际会
+
+
+
+
+
+            
+        </p>
+    </div>
+    
+    <footer class="post-footer clearfix">
+        <div class="pull-left tag-list">
+            <div class="post-meta">
+    
+    <span class="categories-meta fa-wrap">
+        <i class="fa fa-folder-open-o"></i>
+        
+    </span>
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-tags"></i>
+        <span class="tags-meta">
+            
+            <a class="tag-link" href="/tags/%E5%8F%A4%E7%90%B4%E5%87%8F%E5%AD%97%E8%B0%B1/" rel="tag">古琴减字谱</a>
+            
+        </span>
+    </span>
+    
+    
+</div>
+        </div>
+        <div class="post-permalink">
+            <a href="/2020/04/04/%E9%A3%8E%E4%BA%91%E9%99%85%E4%BC%9A/" class="btn btn-default">
+                阅读全文</a>
+        </div>
+    </footer>
+    
+</article>
+
+
+<article class="post">
+    
+    <div class="post-media">
+        <a href="/2020/04/04/%E8%8E%B7%E9%BA%9F%E6%93%8D%20%E7%AE%A1%E5%B9%B3%E6%B9%96/">
+            <img class="img-ajax" src="/img/loading.gif" data-src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540977173116608.gif" alt="获麟操 管平湖">
+        </a>
+    </div>
+    
+    <div class="post-content">
+        <div class="post-head home-post-head">
+            <h1 class="post-title">
+                <a href="/2020/04/04/%E8%8E%B7%E9%BA%9F%E6%93%8D%20%E7%AE%A1%E5%B9%B3%E6%B9%96/">
+                    获麟操 管平湖</a>
+            </h1>
+            <div class="post-meta"> &bull;
+                <time class="post-date" datetime="" title="">
+                    2020年04月04日
+                </time>
+            </div>
+        </div>
+        <p class="brief">
+            
+            ​    中国古琴曲，相传是孔子所作，最早出现于《神奇秘谱》，相传鲁哀公时，有人捕获了一只麟，但是捕获过程中麟受伤了，孔子去看了后感到悲伤，认为这种祥瑞只有明主在时会出现，现在却被虞人捕获，是麟的不幸。
+　　《重修真传琴谱》中获麟歌词...
+            
+        </p>
+    </div>
+    
+    <footer class="post-footer clearfix">
+        <div class="pull-left tag-list">
+            <div class="post-meta">
+    
+    <span class="categories-meta fa-wrap">
+        <i class="fa fa-folder-open-o"></i>
+        
+    </span>
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-tags"></i>
+        <span class="tags-meta">
+            
+            <a class="tag-link" href="/tags/%E5%8F%A4%E7%90%B4%E5%87%8F%E5%AD%97%E8%B0%B1/" rel="tag">古琴减字谱</a> <a class="tag-link" href="/tags/%E7%AE%A1%E5%B9%B3%E6%B9%96/" rel="tag">管平湖</a>
+            
+        </span>
+    </span>
+    
+    
+</div>
+        </div>
+        <div class="post-permalink">
+            <a href="/2020/04/04/%E8%8E%B7%E9%BA%9F%E6%93%8D%20%E7%AE%A1%E5%B9%B3%E6%B9%96/" class="btn btn-default">
+                阅读全文</a>
+        </div>
+    </footer>
+    
+</article>
+
+
+<article class="post">
+    
+    <div class="post-media">
+        <a href="/2020/04/04/%E9%A3%8E%E9%9B%B7%E5%BC%95/">
+            <img class="img-ajax" src="/img/loading.gif" data-src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540967799732926.jpg" alt="风雷引">
+        </a>
+    </div>
+    
+    <div class="post-content">
+        <div class="post-head home-post-head">
+            <h1 class="post-title">
+                <a href="/2020/04/04/%E9%A3%8E%E9%9B%B7%E5%BC%95/">
+                    风雷引</a>
+            </h1>
+            <div class="post-meta"> &bull;
+                <time class="post-date" datetime="" title="">
+                    2020年04月04日
+                </time>
+            </div>
+        </div>
+        <p class="brief">
+            
+            风雷引​    风雷引，曲意如名，春秋时期鲁国人贺云所作，曲风浓烈，从风雨欲来的酝酿之势到迅雷烈风、阵雨如柱的磅礴气势，最后雨过天晴的一个过程。
+​    琴曲收录于李仁撰辑的《太音传习》古琴谱，原谱共十段，宫调曲谱。另以’”风雷“为...
+            
+        </p>
+    </div>
+    
+    <footer class="post-footer clearfix">
+        <div class="pull-left tag-list">
+            <div class="post-meta">
+    
+    <span class="categories-meta fa-wrap">
+        <i class="fa fa-folder-open-o"></i>
+        
+    </span>
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-tags"></i>
+        <span class="tags-meta">
+            
+            <a class="tag-link" href="/tags/%E5%8F%A4%E7%90%B4%E5%87%8F%E5%AD%97%E8%B0%B1/" rel="tag">古琴减字谱</a>
+            
+        </span>
+    </span>
+    
+    
+</div>
+        </div>
+        <div class="post-permalink">
+            <a href="/2020/04/04/%E9%A3%8E%E9%9B%B7%E5%BC%95/" class="btn btn-default">
+                阅读全文</a>
+        </div>
+    </footer>
+    
+</article>
+
+
+<article class="post">
+    
+    <div class="post-media">
+        <a href="/2020/04/04/%E9%A3%8E%E9%9B%AA%E7%AD%91%E8%B7%AF/">
+            <img class="img-ajax" src="/img/loading.gif" data-src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540969981291816.jpg" alt="风雪筑路">
+        </a>
+    </div>
+    
+    <div class="post-content">
+        <div class="post-head home-post-head">
+            <h1 class="post-title">
+                <a href="/2020/04/04/%E9%A3%8E%E9%9B%AA%E7%AD%91%E8%B7%AF/">
+                    风雪筑路</a>
+            </h1>
+            <div class="post-meta"> &bull;
+                <time class="post-date" datetime="" title="">
+                    2020年04月04日
+                </time>
+            </div>
+        </div>
+        <p class="brief">
+            
+            风雪筑路
+
+
+
+
+
+            
+        </p>
+    </div>
+    
+    <footer class="post-footer clearfix">
+        <div class="pull-left tag-list">
+            <div class="post-meta">
+    
+    <span class="categories-meta fa-wrap">
+        <i class="fa fa-folder-open-o"></i>
+        
+    </span>
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-tags"></i>
+        <span class="tags-meta">
+            
+            <a class="tag-link" href="/tags/%E5%8F%A4%E7%90%B4%E5%87%8F%E5%AD%97%E8%B0%B1/" rel="tag">古琴减字谱</a>
+            
+        </span>
+    </span>
+    
+    
+</div>
+        </div>
+        <div class="post-permalink">
+            <a href="/2020/04/04/%E9%A3%8E%E9%9B%AA%E7%AD%91%E8%B7%AF/" class="btn btn-default">
+                阅读全文</a>
+        </div>
+    </footer>
+    
+</article>
+
+
+
+<nav class="pagination" role="navigation">
+    <div id="page-nav">
+        <a class="extend prev" rel="prev" href="/">&lt;i class&#x3D;&#39;fa fa-angle-left&#39;&gt;&lt;&#x2F;i&gt;</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+    </div>
 </nav>
 
-
-
-  <div class="search-pop-overlay">
-    <div class="popup search-popup">
-        <div class="search-header">
-  <span class="search-icon">
-    <i class="fa fa-search"></i>
-  </span>
-  <div class="search-input-container">
-    <input autocomplete="off" autocapitalize="off"
-           placeholder="搜索..." spellcheck="false"
-           type="search" class="search-input">
-  </div>
-  <span class="popup-btn-close">
-    <i class="fa fa-times-circle"></i>
-  </span>
-</div>
-<div id="search-result">
-  <div id="no-result">
-    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
-  </div>
-</div>
-
-    </div>
-  </div>
-
-</div>
-    </header>
-
+                </main>
+                
+                    
+<aside class="col-md-4 sidebar">
     
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-
-
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
-
-          <div class="content index posts-expand">
+    
+<div class="widget">
+    <h3 class="title">
+        搜索
+    </h3>
+    <div id="search-form">
+        <div id="result-mask" class="hide"></div>
+        <div class="search-area">
             
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://yizhen20.github.io/2020/04/04/%E6%98%A0%E5%B1%B1%E7%BA%A2/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://s1.ax1x.com/2020/04/04/GwlwKx.jpg">
-      <meta itemprop="name" content="宋雨轩">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="古琴记录">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/04/04/%E6%98%A0%E5%B1%B1%E7%BA%A2/" class="post-title-link" itemprop="url">映山红</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-04-04 00:00:00 / 修改时间：10:54:53" itemprop="dateCreated datePublished" datetime="2020-04-04T00:00:00+08:00">2020-04-04</time>
-            </span>
-
-          
-
+            <input id="search-key" type="search" autocomplete="off" placeholder="搜点什么呢？">
+            <button type="button" class="search-form-submit" id="search-local">
+                站内搜索</button>
+            
+            
         </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="映山红"><a href="#映山红" class="headerlink" title="映山红"></a>映山红</h1><p><img src="http://www.bj-myt.com/ueditor/php/upload/image/20181226/1545818286882725.gif" alt="ãæ å±±çº¢ã&lt;a href=http://www.bj-myt.com/ target=_blank class=infotextkey&gt;å¤ç´&lt;/a&gt;è°± åå­è°±"></p>
-
-      
+        <div id="result-wrap" class="hide">
+            <div id="search-result"></div>
+        </div>
+        <div class="hide">
+            <template id="search-tpl">
+                <div class="item">
+                    <a href="/{path}" title="{title}">
+                        <div class="title">{title}</div>
+                        <div class="content">{content}</div>
+                    </a>
+                </div>
+            </template>
+        </div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://yizhen20.github.io/2020/04/04/%E8%8E%B7%E9%BA%9F%E6%93%8D%20%E7%AE%A1%E5%B9%B3%E6%B9%96/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://s1.ax1x.com/2020/04/04/GwlwKx.jpg">
-      <meta itemprop="name" content="宋雨轩">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="古琴记录">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/04/04/%E8%8E%B7%E9%BA%9F%E6%93%8D%20%E7%AE%A1%E5%B9%B3%E6%B9%96/" class="post-title-link" itemprop="url">获麟操 管平湖</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-04-04 00:00:00 / 修改时间：11:24:15" itemprop="dateCreated datePublished" datetime="2020-04-04T00:00:00+08:00">2020-04-04</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>​    中国古琴曲，相传是孔子所作，最早出现于《神奇秘谱》，相传鲁哀公时，有人捕获了一只麟，但是捕获过程中麟受伤了，孔子去看了后感到悲伤，认为这种祥瑞只有明主在时会出现，现在却被虞人捕获，是麟的不幸。</p>
-<p>　　《重修真传琴谱》中获麟歌词：<br>　　第一段伤时麟兮<br>　　麟兮麟兮，合仁抱义，出有其时。行步而中规，折旋而中矩，其声也音中钟吕。所游那而必择详而后处处，仁趾兮生草不践，那生虫也而不履。居不羣，行不侣，不陷於穽，恢恢网罟而无所罹。麟兮一角五蹄，时其希，气钟两仪。今出无期，食铁产金空其奇。<br>　　第二段西狩大野<br>　　西狩大野，邹鲁观风化。大婚大鱧，好生恶杀。贤君也，辨政耶，齐鲁兮，裔不谋夏，夷不那乱华，君对而无暇。<br>　　第三段获麟折足<br>　　世事无常，子钮商薪，於野获麟兮以为不祥。折其足而堪伤。夫我其将辨物而推其详，推其详。那齐鲁而何其昌，胡为而来遭此不良。刚其肠拭面也而汪洋，反袂沾裳。麟之至时当其当，斯出也知为明王。<br>　　第四段长叹瑞麟<br>　　心戚戚，礼乐废坠，纲常也坏极。値雍彻歌咏於三家，有君夷狄。瑞嶙兮谁期遭不测。仁而有德，不为明王获。麟之不荣，苍苍减色。那时无明王，叔孙氏心何感，为虞人所得。空自那呈文邹邦鲁国，邹邦鲁国。四兽之灵依谁识，依谁为识。<br>　　第五段幽愤慨叹<br>　　慨叹成幽愤，成幽愤。吁嗟乎麒麟兽之尊，马蹄牛尾那而麕身。懐治化仁，玉趾而振振。行不侣，止不羣。今遭丧於叔孙，遭丧於叔孙。木精也，依谁论，依谁论，嗟呼不仁之人。<br>　　第六段绝笔春秋<br>　　周道不兴，感嘉祯之无应。麟瑞兮郊薮而空呈，笔绝兮归欤，雅乐将焉正。吾道天丧盛贤鲁卫之聘。知我罪我，笔绝那春秋之秉。道之那将行，道之将丧从天命，道之将丧从天命。</p>
-<p><img src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540977173116608.gif" alt="ãè·éºæãå¤ç´è°±åå­è°± ç®¡å¹³æ¹ç"></p>
-<p><img src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540978059750415.gif" alt="ãè·éºæãå¤ç´è°±åå­è°± ç®¡å¹³æ¹ç"></p>
-<p><img src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540978088800219.gif" alt="ãè·éºæãå¤ç´è°±åå­è°± ç®¡å¹³æ¹ç"></p>
-<p><img src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540978124594835.gif" alt="ãè·éºæãå¤ç´è°±åå­è°± ç®¡å¹³æ¹ç"></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://yizhen20.github.io/2020/04/04/%E9%A3%8E%E9%9B%AA%E7%AD%91%E8%B7%AF/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://s1.ax1x.com/2020/04/04/GwlwKx.jpg">
-      <meta itemprop="name" content="宋雨轩">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="古琴记录">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/04/04/%E9%A3%8E%E9%9B%AA%E7%AD%91%E8%B7%AF/" class="post-title-link" itemprop="url">风雪筑路</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-04-04 00:00:00 / 修改时间：11:14:38" itemprop="dateCreated datePublished" datetime="2020-04-04T00:00:00+08:00">2020-04-04</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="风雪筑路"><a href="#风雪筑路" class="headerlink" title="风雪筑路"></a>风雪筑路</h1><p><img src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540969132180580.jpg" alt="ãé£éªç­è·¯ã&lt;a href=http://www.bj-myt.com/ target=_blank class=infotextkey&gt;å¤ç´&lt;/a&gt;è°± åå­è°±ä¸è½½"></p>
-<p><img src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540969863649488.jpg" alt="ãé£éªç­è·¯ãå¤ç´è°± åå­è°±ä¸è½½"></p>
-<p><img src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540969912566875.jpg" alt="ãé£éªç­è·¯ãå¤ç´è°± åå­è°±ä¸è½½"></p>
-<p><img src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540969952137843.jpg" alt="ãé£éªç­è·¯ãå¤ç´è°± åå­è°±ä¸è½½"></p>
-<p><img src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540969981291816.jpg" alt="ãé£éªç­è·¯ãå¤ç´è°± åå­è°±ä¸è½½"></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://yizhen20.github.io/2020/04/04/%E9%A3%8E%E4%BA%91%E9%99%85%E4%BC%9A/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://s1.ax1x.com/2020/04/04/GwlwKx.jpg">
-      <meta itemprop="name" content="宋雨轩">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="古琴记录">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/04/04/%E9%A3%8E%E4%BA%91%E9%99%85%E4%BC%9A/" class="post-title-link" itemprop="url">风云际会</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-04-04 00:00:00 / 修改时间：11:13:25" itemprop="dateCreated datePublished" datetime="2020-04-04T00:00:00+08:00">2020-04-04</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="风云际会"><a href="#风云际会" class="headerlink" title="风云际会"></a>风云际会</h1><p><img src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540972212567360.jpg" alt="ãé£äºéä¼ã&lt;a href=http://www.bj-myt.com/ target=_blank class=infotextkey&gt;å¤ç´&lt;/a&gt;è°± åå­è°±å¤§å¨ä¸è½½"></p>
-<p><img src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540972438584303.jpg" alt="ãé£äºéä¼ãå¤ç´è°± åå­è°±å¤§å¨ä¸è½½"></p>
-<p><img src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540972474906311.jpg" alt="ãé£äºéä¼ãå¤ç´è°± åå­è°±å¤§å¨ä¸è½½"></p>
-<p><img src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540972512979780.jpg" alt="ãé£äºéä¼ãå¤ç´è°± åå­è°±å¤§å¨ä¸è½½"></p>
-<p><img src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540972545849117.jpg" alt="ãé£äºéä¼ãå¤ç´è°± åå­è°±å¤§å¨ä¸è½½"></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://yizhen20.github.io/2020/04/04/%E9%A3%8E%E9%9B%B7%E5%BC%95/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://s1.ax1x.com/2020/04/04/GwlwKx.jpg">
-      <meta itemprop="name" content="宋雨轩">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="古琴记录">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/04/04/%E9%A3%8E%E9%9B%B7%E5%BC%95/" class="post-title-link" itemprop="url">风雷引</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-04-04 00:00:00 / 修改时间：11:15:56" itemprop="dateCreated datePublished" datetime="2020-04-04T00:00:00+08:00">2020-04-04</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="风雷引"><a href="#风雷引" class="headerlink" title="风雷引"></a>风雷引</h1><p>​    风雷引，曲意如名，春秋时期鲁国人贺云所作，曲风浓烈，从风雨欲来的酝酿之势到迅雷烈风、阵雨如柱的磅礴气势，最后雨过天晴的一个过程。</p>
-<p>​    琴曲收录于李仁撰辑的《太音传习》古琴谱，原谱共十段，宫调曲谱。另以’”风雷“为名的古琴曲最早是1525年《西麓堂琴统》中收录的版本。二者在某些版本之间或许有些关联。</p>
-<p><img src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540967799732926.jpg" alt="ãé£é·å¼ãå¤ç´è°± åå­è°±ä¸è½½"></p>
-<p><img src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540967905430113.jpg" alt="ãé£é·å¼ãå¤ç´è°± åå­è°±ä¸è½½"></p>
-<p><img src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540967937593197.jpg" alt="ãé£é·å¼ãå¤ç´è°± åå­è°±ä¸è½½"></p>
-<p><img src="http://www.bj-myt.com/ueditor/php/upload/image/20181031/1540967981653804.jpg" alt="ãé£é·å¼ãå¤ç´è°± åå­è°±ä¸è½½"></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
-  
-  <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
-  </nav>
-
-
-
-          </div>
-          
-
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
-      }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
-
-        </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
-
-  <aside class="sidebar">
-    <div class="sidebar-inner">
-
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          文章目录
-        </li>
-        <li class="sidebar-nav-overview">
-          站点概览
-        </li>
-      </ul>
-
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-      </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="宋雨轩"
-      src="https://s1.ax1x.com/2020/04/04/GwlwKx.jpg">
-  <p class="site-author-name" itemprop="name">宋雨轩</p>
-  <div class="site-description" itemprop="description"></div>
 </div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
+
+    
+    
+<div class="widget">
+    <h3 class="title">
+        网站公告
+    </h3>
+    <div class="notification">
+        <p>
+  鳶飛魚躍，無處不是化境.
+</p>
+    </div>
+</div>
+
+    
+    
+<div class="widget">
+    <h3 class="title">
+        社交
+    </h3>
+    <div class="content social">
         
-          <span class="site-state-item-count">15</span>
-          <span class="site-state-item-name">日志</span>
+        <a href="//github.com/yizhen20" rel="external nofollow" title="Github" target="_blank">
+            <i class="git fa fa-git"></i>
         </a>
-      </div>
-      <div class="site-state-item site-state-tags">
-            <a href="/tags/">
-          
-        <span class="site-state-item-count">3</span>
-        <span class="site-state-item-name">标签</span></a>
-      </div>
-  </nav>
-</div>
-
-
-
-      </div>
-
+        
+        <a href="764594334@qq.com" rel="external nofollow" title="邮箱" target="_blank">
+            <i class="envelope-o fa fa-envelope-o"></i>
+        </a>
+        
+        <a href="/" rel="external nofollow" title="联系QQ" target="_blank">
+            <i class="qq fa fa-qq"></i>
+        </a>
+        
+        <a href="/" rel="external nofollow" title="微信" target="_blank">
+            <i class="weixin fa fa-weixin"></i>
+        </a>
+        
+        <a href="/" rel="external nofollow" title="QQ群" target="_blank">
+            <i class="users fa fa-users"></i>
+        </a>
+        
+        <a href="/atom.xml" rel="external nofollow" title="RSS" target="_blank">
+            <i class="feed fa fa-feed"></i>
+        </a>
+        
     </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
-
-
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-inner">
-        
-
-        
-
-<div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2020</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">宋雨轩</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
-  </div>
 
+    
+    
+    
+    
+<div class="widget">
+    <h3 class="title">
+        归档
+    </h3>
+    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/"><i class="fa" aria-hidden="true">2020年04月</i></a><span class="archive-list-count">15</span></li></ul>
+</div>
+
+    
+    
+<div class="widget">
+    <h3 class="title">
+        标签云
+    </h3>
+    <div class="content tag-cloud">
         
+        <a href="/tags/%E5%8F%A4%E7%90%B4%E5%87%8F%E5%AD%97%E8%B0%B1/" style="font-size: 20px;">古琴减字谱</a> <a href="/tags/%E6%8C%87%E6%B3%95%E5%AD%A6%E4%B9%A0/" style="font-size: 10px;">指法学习</a> <a href="/tags/%E7%AE%A1%E5%B9%B3%E6%B9%96/" style="font-size: 10px;">管平湖</a>
+        
+    </div>
+</div>
+
+    
+    
+<div class="widget">
+    <h3 class="title">
+        友链
+    </h3>
+    <div class="content friends-link">
+        
+        <a href="https://hexo.io/zh-cn/" class="fa" target="_blank">
+            Hexo官网</a>
+        
+    </div>
+</div>
+
+    
+</aside>
+
+                
+            </div>
+        </div>
+    </section>
+    <footer class="main-footer">
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+</footer>
+<a id="back-to-top" class="icon-btn hide">
+    <i class="fa fa-chevron-up"></i>
+</a>
+    <div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="busuanzi">
+    
+</div>
+            </div>
+            <div class="col-sm-12">
+                <span>Copyright &copy;
+                    2020
+                    
+                </span> |
+                <span>
+                    Powered by <a href="//hexo.io" class="copyright-links" target="_blank" rel="nofollow">Hexo</a>
+                </span> |
+                <span>
+                    Theme by <a href="//github.com/shenliyang/hexo-theme-snippet.git" class="copyright-links" target="_blank" rel="nofollow">Snippet</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="/js/search.js?rev=@@hash.js"></script>
 
 
 
 
 
-
-
-
-      </div>
-    </footer>
-  </div>
-
-  
-  <script src="/lib/anime.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/pisces.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
-
-
-
-  
-
-
-
-
-  
-<script src="/js/local-search.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
+<script src="/js/app.js?rev=@@hash.js"></script>
 
 </body>
 </html>
