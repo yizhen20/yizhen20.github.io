@@ -1,6 +1,11 @@
 /*!========================================================================
  *  hexo-theme-snippet: app.js v1.0.0
  * ======================================================================== */
+$(document).pjax('a', '#pjax-container', {
+    fragment: '#pjax-container',
+    timeout: 5000,
+    cache: false
+});
 window.onload = function() {
     var $body = document.body,
         $mnav = document.getElementById("mnav"), //获取导航三角图标

@@ -64,7 +64,12 @@
 
     
 
-<meta name="generator" content="Hexo 4.2.0"></head>
+<meta name="generator" content="Hexo 4.2.0"></head>    
+    <div class="loading"><div id="loader"></div></div>
+    <script src="https://cdn.jsdelivr.net/npm/pjax/pjax.js"></script>
+
+
+
 <!--[if lte IE 8]>
 <style>
     html{ font-size: 1em }
@@ -74,6 +79,11 @@
 <div style="ie">你使用的浏览器版本过低，为了你更好的阅读体验，请更新浏览器的版本或者使用其他现代浏览器，比如Chrome、Firefox、Safari等。</div>
 <![endif]-->
 <body>
+<!-- ����APlayer���ֲ����� -->
+<link rel="stylesheet" href="/dist/APlayer.min.css">
+<div id="aplayer"></div>
+<script type="text/javascript" src="/dist/APlayer.min.js"></script>
+<script type="text/javascript" src="/dist/music.js"></script>
     <header class="main-header"  style="background-image:url(
     https://i.loli.net/2020/04/30/ZN7u4Kr5T3Q2j8c.png)"
      >
@@ -109,8 +119,8 @@
                         </li>
                         
                         <li role="presentation" class="text-center">
-                            <a href="/categories/古琴指法/"><i class="fa "></i>
-                                古琴指法</a>
+                            <a href="/categories/古琴教学/"><i class="fa "></i>
+                                古琴教学</a>
                         </li>
                         
                         <li role="presentation" class="text-center">
@@ -141,7 +151,7 @@
 </nav>
     <section class="content-wrap">
         <div class="container">
-            <div class="row">
+            <div class="row" id="pjax-container">
                 <main class="col-md-8 main-content m-post">
                     <p id="process"></p>
 <article class="post">
@@ -212,10 +222,10 @@
     </a>
     
     
-    <a href="/2020/04/04/%E5%8F%A4%E7%90%B4%E5%87%8F%E5%AD%97%E8%B0%B1%E5%AF%B9%E7%85%A7%E8%A1%A8/" class="next-post btn btn-default" title='古琴减字谱对照表'>
+    <a href="/2020/04/04/%E5%B2%B3%E9%98%B3%E4%B8%89%E9%86%89/" class="next-post btn btn-default" title='岳阳三醉'>
         <span class="hidden-lg">下一篇</span>
         <span class="hidden-xs">
-            古琴减字谱对照表</span><i class="fa fa-angle-right fa-fw"></i>
+            岳阳三醉</span><i class="fa fa-angle-right fa-fw"></i>
     </a>
     
 </div>
@@ -285,6 +295,9 @@
         </div>
     </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="/js/jquery.pjax.min.js"></script>
 
 
 

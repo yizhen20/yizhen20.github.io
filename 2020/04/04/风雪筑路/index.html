@@ -68,7 +68,12 @@
 
     
 
-<meta name="generator" content="Hexo 4.2.0"></head>
+<meta name="generator" content="Hexo 4.2.0"></head>    
+    <div class="loading"><div id="loader"></div></div>
+    <script src="https://cdn.jsdelivr.net/npm/pjax/pjax.js"></script>
+
+
+
 <!--[if lte IE 8]>
 <style>
     html{ font-size: 1em }
@@ -78,6 +83,11 @@
 <div style="ie">你使用的浏览器版本过低，为了你更好的阅读体验，请更新浏览器的版本或者使用其他现代浏览器，比如Chrome、Firefox、Safari等。</div>
 <![endif]-->
 <body>
+<!-- ����APlayer���ֲ����� -->
+<link rel="stylesheet" href="/dist/APlayer.min.css">
+<div id="aplayer"></div>
+<script type="text/javascript" src="/dist/APlayer.min.js"></script>
+<script type="text/javascript" src="/dist/music.js"></script>
     <header class="main-header"  style="background-image:url(
     https://i.loli.net/2020/04/30/ZN7u4Kr5T3Q2j8c.png)"
      >
@@ -113,8 +123,8 @@
                         </li>
                         
                         <li role="presentation" class="text-center">
-                            <a href="/categories/古琴指法/"><i class="fa "></i>
-                                古琴指法</a>
+                            <a href="/categories/古琴教学/"><i class="fa "></i>
+                                古琴教学</a>
                         </li>
                         
                         <li role="presentation" class="text-center">
@@ -145,7 +155,7 @@
 </nav>
     <section class="content-wrap">
         <div class="container">
-            <div class="row">
+            <div class="row" id="pjax-container">
                 <main class="col-md-8 main-content m-post">
                     <p id="process"></p>
 <article class="post">
@@ -290,6 +300,9 @@
         </div>
     </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="/js/jquery.pjax.min.js"></script>
 
 
 
