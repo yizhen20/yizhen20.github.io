@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,a as e}from"./app.98b1dfca.js";const b=JSON.parse('{"title":"\u73AF\u5883\u4F9D\u8D56","description":"","frontmatter":{},"headers":[],"relativePath":"guide/dependent.md"}'),p={name:"guide/dependent.md"},l=e("",2),t=[l];function r(o,c,i,d,_,u){return a(),n("div",null,t)}var A=s(p,[["render",r]]);export{b as __pageData,A as default};
