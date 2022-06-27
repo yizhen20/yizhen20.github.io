@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,a as e}from"./app.a908ad25.js";const A=JSON.parse('{"title":"\u73AF\u5883\u7248\u672C","description":"","frontmatter":{},"headers":[],"relativePath":"guide/surroundings.md"}'),p={name:"guide/surroundings.md"},l=e("",4),r=[l];function o(c,i,t,d,u,b){return a(),n("div",null,r)}var C=s(p,[["render",o]]);export{A as __pageData,C as default};

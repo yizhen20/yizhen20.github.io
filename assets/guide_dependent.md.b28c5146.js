@@ -1,7 +1,0 @@
-import{_ as s,c as n,o as a,a as e}from"./app.98b1dfca.js";const b=JSON.parse('{"title":"\u73AF\u5883\u4F9D\u8D56","description":"","frontmatter":{},"headers":[],"relativePath":"guide/dependent.md"}'),p={name:"guide/dependent.md"},l=e(`<h1 id="\u73AF\u5883\u4F9D\u8D56" tabindex="-1">\u73AF\u5883\u4F9D\u8D56 <a class="header-anchor" href="#\u73AF\u5883\u4F9D\u8D56" aria-hidden="true">#</a></h1><div class="language- line-numbers-mode"><span class="copy"></span><pre><code><span class="line"><span style="color:#A6ACCD;">sudo apt-get install sendmail</span></span>
-<span class="line"><span style="color:#A6ACCD;">sudo apt install g++</span></span>
-<span class="line"><span style="color:#A6ACCD;">sudo apt install build-essential</span></span>
-<span class="line"><span style="color:#A6ACCD;">sudo apt install python3.9</span></span>
-<span class="line"><span style="color:#A6ACCD;">npm install -g node-gyp</span></span>
-<span class="line"><span style="color:#A6ACCD;">npm config set python /usr/lib/python3.9</span></span>
-<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre><div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div>`,2),t=[l];function r(o,c,i,d,_,u){return a(),n("div",null,t)}var A=s(p,[["render",r]]);export{b as __pageData,A as default};

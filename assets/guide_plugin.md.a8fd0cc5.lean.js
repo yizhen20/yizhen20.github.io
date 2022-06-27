@@ -1,1 +1,0 @@
-import{_ as n,c as s,o as a,a as e}from"./app.98b1dfca.js";const A=JSON.parse('{"title":"\u63D2\u4EF6\u7248\u672C","description":"","frontmatter":{},"headers":[],"relativePath":"guide/plugin.md"}'),p={name:"guide/plugin.md"},l=e("",2),r=[l];function o(i,c,b,t,d,u){return a(),s("div",null,r)}var C=n(p,[["render",o]]);export{A as __pageData,C as default};

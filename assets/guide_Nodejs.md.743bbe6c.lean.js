@@ -1,1 +1,0 @@
-import{_ as s,c as e,o as n,a}from"./app.98b1dfca.js";const b=JSON.parse('{"title":"Node.js","description":"","frontmatter":{},"headers":[],"relativePath":"guide/Nodejs.md"}'),p={name:"guide/Nodejs.md"},o=a("",6),l=[o];function r(c,d,t,i,_,u){return n(),e("div",null,l)}var h=s(p,[["render",r]]);export{b as __pageData,h as default};
